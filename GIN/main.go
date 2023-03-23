@@ -20,5 +20,6 @@ func main() {
 	// router.HandleFunc("/users/{id}", controllers.UpdateUser).Methods("PUT")
 	// router.HandleFunc("/users/{id}", controllers.DeleteUser).Methods("DELETE")
 
-	router.Run("localhost:8080")ab
+	router.Run("localhost:8080")
+	cobacoba := echo.New()
 }
