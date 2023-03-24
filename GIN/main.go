@@ -21,5 +21,4 @@ func main() {
 	// router.HandleFunc("/users/{id}", controllers.DeleteUser).Methods("DELETE")
 
 	router.Run("localhost:8080")
-	cobacoba := echo.New()
 }
